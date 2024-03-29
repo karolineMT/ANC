@@ -1,0 +1,121 @@
+
+  .sidebar{
+    height: 100%;
+    width: 250px;
+    background-color: rgb(36, 5, 31);
+  
+  }
+  .sidebarlist {
+    width: auto;
+    padding: 0%;
+    height: 100%;
+  }
+  .sidebarlist .row{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  .sidebarlist .row:hover{
+   cursor: pointer;
+   background-color: rgb(83, 144, 83);
+  }
+  .row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .row #title{
+    flex: 70%;
+  }
+  
+  .main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .main-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .card:first-child {
+    background-color: #7f78e3;
+  }
+  
+  .card:nth-child(2) {
+    background-color: #e69bc4;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  .card:nth-child(3) {
+    background-color: #9ae19e;
+  }
+}
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  .card:nth-child(4) {
+    background-color: #e87e7e;
+  }
+  
+  .card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-inner  .card_icon {
+    font-size: 25px;
+  }
+  .link-no-highlight {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent */
+  }
