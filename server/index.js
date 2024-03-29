@@ -30,6 +30,7 @@ app.post('/register',(req,res)=>{
     .then(Patient =>res.json(Patient))
     .catch(err=>res.json(err))
 })
+
  
  app.listen(3008,()=>{
     console.log('server is running')

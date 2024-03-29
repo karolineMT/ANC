@@ -21,10 +21,14 @@ const Signup = () => {
 
   const handleSubmit = (values, { setSubmitting }) => {
     axios.post('http://localhost:3008/register', values)
-      .then((result) => console.log(result))
+      .then((result) => {
+        console.log(result);
+        if (result.status === 200) { 
+          navigate('/'); 
+        }
+      })
       .catch((err) => console.log(err))
       .finally(() => setSubmitting(false));
-    navigate('/login');
   };
 
   return (
