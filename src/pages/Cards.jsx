@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar';
 function Cards() {
     return (
         <main className='container-fluid justify-content-between'>
-            <Header />
+            <Header name= "LogOut" />
             <br></br>
             <div className='row'>
                 <Sidebar />
