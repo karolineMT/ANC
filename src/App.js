@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Contact from "./pages/Contact";
 import Reports from "./pages/Reports";
+import Demographics from "./components/demographics/Demographics";
 
 
 
@@ -22,13 +23,14 @@ function App() {
          
           <Routes>
           
-          <Route exact path="/" element={<Home />} />;
-          <Route path="/Cards" element={< Cards/>} />;
-          <Route path="/Signup" element={< Signup/>} />;
+          {/* <Route exact path="/" element={<Home />} />; */}
+          {/* <Route path="/Cards" element={< Cards/>} />; */}
+          {/* <Route path="/Signup" element={< Signup/>} />;
           <Route path="/Login" element={< Login/>} />;
           <Route path="/Register" element={< Register/>} />;
           <Route path="/Contact" element={< Contact/>} />;
-          <Route path="/Reports" element={< Reports/>} />;
+          <Route path="/Reports" element={< Reports/>} />; */}
+          <Route path="/Cards" element={<Demographics />} />;
 
 
           </Routes>

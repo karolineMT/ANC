@@ -14,7 +14,7 @@ function Cards() {
                         <div className="col-md-6">
                             <div className="card bg-success order-card text-white">
                                 <div className="card-body">
-                                    <h6 className="mb-4">Register Woman</h6>
+                                    <h6 className="mb-4">Demographics</h6>
                                     <h2 className="text-end"><i className="fa fa-rocket float-start"></i><span></span></h2>
                                     <p className="mb-0"><span className="float-end"></span></p>
                                 </div>
@@ -32,7 +32,7 @@ function Cards() {
                         <div className="col-md-6">
                             <div className="card bg-success order-card text-white">
                                 <div className="card-body">
-                                    <h6 className="mb-4">Medical Check</h6>
+                                    <h6 className="mb-4">Medical Check Up</h6>
                                     <h2 className="text-end"><i className="fa fa-rocket float-start"></i><span></span></h2>
                                     <p className="mb-0"><span className="float-end"></span></p>
                                 </div>
