@@ -16,6 +16,13 @@ const validationSchema = Yup.object().shape({
     .required('Password is required'),
 });
 
+ const initialValues={
+    name:'',
+    emai:'',
+    password:''
+
+ }
+
 const Signup = () => {
   const navigate = useNavigate();
 
@@ -40,7 +47,7 @@ const Signup = () => {
             Register
           </Typography>
           <Formik
-            initialValues={{ name: '', email: '', password: '' }}
+            initialValues={initialValues}
             validationSchema={validationSchema}
             onSubmit={handleSubmit}
           >

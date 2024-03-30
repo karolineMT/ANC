@@ -6,6 +6,7 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { Button, TextField, Grid, Typography, Paper } from '@mui/material';
 import AppBarSample from './AppBarSample';
+import Header from '../components/Header';
 
 const validationSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email format').required('Email is required'),
@@ -28,6 +29,7 @@ const Login = () => {
   };
 
   return (
+    
     <Grid container justifyContent="center" alignItems="center" style={{ height: '100vh' }}>
       <AppBarSample />
       <Grid item xs={12} sm={6} md={4}>
