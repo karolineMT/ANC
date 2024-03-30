@@ -9,10 +9,7 @@ function Home() {
         <div className="home d-flex flex-column">
             <div>
                 <Header />
-                <Herosection />
-            
-                
-                
+                <Herosection />               
             </div>
             
            

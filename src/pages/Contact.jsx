@@ -5,11 +5,7 @@ function Contact() {
   return (
     <div>
         <Header />
-        <h1>Prenatal Care</h1>
-        
-
-      
-
+        <h1>Prenatal Care</h1> 
     </div>
   )
 }
